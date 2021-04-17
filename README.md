@@ -12,6 +12,6 @@ If you are opening the Markdown files in VS Code, you can install the `vscode-pa
 ## Command line
 If you are on the command line, change directory to the folder containing the Markdown file and type:
 ```
-pandoc -o "nameOfYourFile.pdf" --from markdown+fancy_lists+starmnum --pdf-engine=lualatext [nameOfYourFile.md]
+pandoc -o "nameOfYourFile.pdf" --from markdown+fancy_lists+startnum --pdf-engine=lualatext [nameOfYourFile.md]
 ```
 Replace [nameOfYourFile.md] with the filename of the Markdown file you want to render as a PDF, without including the brackets.
